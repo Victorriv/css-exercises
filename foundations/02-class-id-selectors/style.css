@@ -1,13 +1,11 @@
-.first,
-.third,
-.fifth{
+.odd{
 
     background-color: rgb(245, 188, 197);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 
-.third{
+.adjust-font-size {
     font-size: 30px;
 }
 

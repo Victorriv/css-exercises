@@ -11,17 +11,17 @@
     font-size: 30px;
 }
 
-
+#two, #four {
+    font-weight: bold;
+}
 
 #two{
     color: rgb(32, 32, 216);
     font-size: 40px;
-    font-weight: bold;
 }
 
 #four{
     background-color: rgba(107, 238, 31, 0.945);
-    font-weight: bold;
     font-size: 25px;
 
 }

@@ -8,16 +8,19 @@ body {
   font-weight: 800;
 }
 
-p.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
 .para {
   font-size: 22px;
 }
 
-.confirm.button {
+.small-para { /* this has to go under para to work.
+  or put a p in front of it and it can be position above para since that makes it higher specificity*/
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+.confirm.button { /* this can also be #confirm-button because id is higher then .button selector.... or do .button.confirm that works too */
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,7 @@ p.small-para {
   font-size: 20px;
 }
 
- .text .child {
+ .text .child {/*can also be div .child But then we have to make sure*/
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
